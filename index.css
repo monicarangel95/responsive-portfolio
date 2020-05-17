@@ -4,4 +4,22 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+.navbar
+        {
+            border-bottom:2px solid#80808038;
+        }
+
+
+ #sticky-footer {
+  flex-shrink: none;
+  border-top:10px solid#bdbaba38;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+       
