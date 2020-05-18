@@ -11,7 +11,15 @@ body {
             border-bottom:2px solid#80808038;
             margin-bottom: 25px;
         }
+p{
+    padding: 15px;
+}
+        
 
+
+img{
+    padding: 15px;
+}
 
  #sticky-footer {
   flex-shrink: none;
