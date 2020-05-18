@@ -12,8 +12,6 @@
     color: var(--blue);
   }
 
-
-
 body {
     background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
     height: 100vh !important;
@@ -39,7 +37,7 @@ img {
 #sticky-footer {
     flex-shrink: none;
     border-top: 10px solid#bdbaba38;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
