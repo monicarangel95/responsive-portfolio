@@ -34,12 +34,4 @@ img {
     padding: 15px;
 }
 
-#sticky-footer {
-    flex-shrink: none;
-    border-top: 10px solid#bdbaba38;
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-}
+
