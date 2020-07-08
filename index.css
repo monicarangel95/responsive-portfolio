@@ -13,6 +13,12 @@ body {
     color: black;
     background: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
 }
+h2 {
+  color: black;
+}
+.row{
+color: white;
+}
 .container {
   width:100%;
   max-width: 960px;
@@ -41,6 +47,7 @@ p {
 
 img {
     padding: 15px;
+    width: auto !important ;
 }
 footer{
   left: 0;
