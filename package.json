@@ -1,0 +1,28 @@
+{
+  "name": "week-2-css-bootstrap",
+  "version": "1.0.0",
+  "description": "Monica's portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mdbootstrap": "^4.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicarangel95/responsive-portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Monica Rangel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monicarangel95/responsive-portfolio/issues"
+  },
+  "homepage": "https://github.com/monicarangel95/responsive-portfolio#readme"
+}
