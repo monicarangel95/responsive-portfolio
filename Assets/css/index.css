@@ -22,10 +22,11 @@ h2 {
   margin: 0 auto;
   clear: both;
 }
+
 #logo{
 color: white;
-background-color: darkgray; opacity: 90%;
-border-color: darkgray;
+/* background-color: darkgray; opacity: 90%; */
+/* border-color: darkgray; */
 padding: 20px;
 font-family: serif;
 font-weight: 200;
@@ -34,7 +35,7 @@ text-align: center;
 border-radius: .1rem;
 }
 .navbar {
-    border-bottom: 2px solid#80808038;
+    border-bottom: 2px solid white;
 padding:0;
 }
 
