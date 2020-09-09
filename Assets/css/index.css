@@ -1,5 +1,4 @@
-
-  * { box-sizing: border-box;} 
+* { box-sizing: border-box;} 
 
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,11 +21,17 @@ h2 {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  
+  
+}
+#portfolio {
+ margin-bottom: 48px;
+  
 }
 #logo{
 color: white;
-background-color: darkgray; opacity: 90%;
-border-color: darkgray;
+/* background-color: darkgray; opacity: 90%; */
+/* border-color: darkgray; */
 padding: 20px;
 font-family: serif;
 font-weight: 200;
@@ -35,8 +40,8 @@ text-align: center;
 border-radius: .1rem;
 }
 .navbar {
-    border-bottom: 2px solid#80808038;
-padding:0;
+    border-bottom: 0px solid white;
+
 }
 
 p {
@@ -44,16 +49,58 @@ p {
 }
 
 img {
-    padding: 15px;
+    padding: 5px;
     width: auto !important ;
+}
+#icon {
+  padding-bottom: 30px;
+  width: auto !important ;
+
+}
+#iconBlock {
+  height: 230px;
+  width: auto !important ;
+
+}
+
+#main{
+  min-height: 60vh;
+  width:100%;
+  max-width: 980px;
+  margin: 0 auto;
+  clear: both;
+  padding: 5%;
+  padding-bottom: 5%;
+  /* margin: 5%; */
+}
+#contact{
+  min-height: 75vh;
+  width:100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  padding: 5%;
+  padding-bottom: 5%;
+  /* margin: 5%; */
 }
 footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 25px;
-  font-size: small;
-  border-top: 8px solid gray;
+  padding: 20px;
+  font-size: medium;
+  /* position: fixed; */
+  border-top: 7px solid gray;
 }
 
+.clip-me { 
+  /* referencing path from an inline SVG <clipPath> */
+  background: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"); 
+/* clip-path: polygon(50% 29%, 100% 0, 100% 60%, 50% 100%, 0 60%, 0% 0%);
+height: 20%; */
+}
+.clip-me-2 { 
+  clip-path: polygon(100% 0, 100% 70%, 51% 100%, 0 70%, 0 50%, 0 0);
+height: 30%;
 
+}
